@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: rgb(24, 34, 41);
+    justify-content: center;
+    /*   */
+    box-sizing: border-box;
+    height: 60px;
+
+
+
+
+}
+
+span {
+    color: aliceblue;
+
+}
+
+/* LEFTNAVBAR */
+
+.leftnav {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.logo img {
+
+    width: 100px;
+    padding-top: 12px;
+
+}
+
+.hello {
+    margin-left: 20px;
+}
+
+.locationicon {
+    padding-right: 10px;
+    padding-left: 20px;
+
+}
+
+
+/* CENTRENAVBAR */
+.centrenav {
+    display: flex;
+    align-items: center;
+
+}
+
+.centrenav input {
+    width: 700px;
+    height: 35px;
+
+}
+
+.centrenav select {
+    width: 100px;
+    height: 40px;
+
+}
+
+.centrenav select {
+    background-color:;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+    text-align: center;
+    box-shadow: 20px azure;
+    
+}
+
+.centrenav button {
+    width: 50px;
+    height: 43px;
+    background-color: rgb(246, 194, 96);
+    
+
+}
+
+
+.centrenav img {
+    width: 20px;
+    
+
+}
+.centrenav button{
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    
+}
+
+.centrenav button :hover{
+    color: antiquewhite;
+    border-color: rgb(43, 180, 226);
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* RIGHTNAVBAR */
+
+.rightnav {
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+
+
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.first img {
+    width: 25px;
+}
+
+select {
+
+    background-color: white;
+    width: 15px;
+    height: 10px;
+}
+
+.third {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.second {
+
+    padding-left: 20px;
+
+
+}
+
+.second section {}
+
+.first {
+
+    padding-left: 20px;
+}
+
+nav {
+    background-image: ;
+}
+
+
+.nav2 {
+    display: flex;
+
+    background-color: rgb(31, 50, 58);
+
+    height: 40px;
+    align-items: center;
+    
+
+}
+
+h4 {
+    /* margin-left: 10px; */
+    color: white;
+    transition: 0.1s;
+    /* margin: 10px; */
+    padding: 5px;
+
+}
+
+
+
+
+/* NAVBAR END */
+
+
+/* MAIN CONTENT */
+
+             /* SECTION1 START */
+            .section1{ background-image: url(background.webp);
+             background-repeat: no-repeat;
+             background-size: cover;
+             position: ;
+
+             display: grid;
+             grid-template-columns: 1FR 1FR 1fr 1fr;
+
+             padding-top: 300px;
+             padding-left: 20px;
+            }
+     
+             /* CONTAINER1 START*/
+.container1{
+    display: grid;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+
+    /* margin: 250px 20px; */
+    /* position: relative;
+    top: 250px; */
+    transition: 0.5s;
+
+}
+
+.section1-container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-color: bisq;
+
+padding-top: 10px;
+padding-left: 10px;
+background-color:white;
+row-gap: 20px;
+
+transition: 0.5s;
+}
+
+.container1-boxes img{
+     width: 150px;
+     
+    
+}
+
+.container1 h2{
+    padding-top: 20px;
+    padding-left:20px ;
+}
+
+.container1 span{
+     color: black;
+     margin-left: 20px;
+     margin-top: 20px;
+      
+}
+
+.container1 .link{
+
+    margin-top: 55px;
+}
+               /* CONTAINER1 ENDS */
+                
+
+.section2{
+     padding-top: 50px;
+     background-color: rgb(227, 226, 226);
+     width: 1460px;
+     padding-left: 25px;
+     padding-right: 25px;
+
+}
+
+.container2{
+
+    display: flex;
+    overflow: scroll;
+    height: 200px;
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+    scroll-snap-type: mandatory;
+    
+}
+
+ .nav2 h4:hover{
+
+    border: white 1px solid;
+    cursor: pointer;
+    /* font-weight: 500px; */
+    /* padding: 10px; */
+    transform:scale(1)
+}
+
+
+
+
+footer{
+
+    background-color: gray;
+    height: 500px;
+}
+  h1{
+    color: azure;
+    text-align: center;
+    margin-top: 200px;
+  } 
+  
+  
+
+  .container1:hover{
+
+   
+transform:scale(1.1)
+    
+
+
+    
+
+    
+
+    
+}
+
+
+
+
+
+  
+
+
+.container1 {
+
+    /* box-shadow:rgb(79, 79, 79) 5px 10px 5px 10px; */
+
+}
